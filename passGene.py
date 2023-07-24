@@ -3,7 +3,6 @@ import array
 
 # maximum length of password needed
 # this can be changed to suit your password length
-# MAX_LEN = 12
 MAX_LEN = int(input("Enter the size of password- "))
 
 # declare arrays of the character that we need in our password

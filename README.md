@@ -30,16 +30,11 @@ This repository contains a Python script (`passGene.py`) that generates strong a
 3. Run the `passGene.py` script:
 
    ```
-   python passGene.py [options]
+   python passGene.py
    ```
+   Then the user will be prompted to enter the length of the password required. 
 
-   Replace `[options]` with the desired length and customization of the password. For example:
-
-   ```
-   python passGene.py --length 12 --uppercase --digits --special
-   ```
-
-   This will generate a random password with a length of 12 characters, including uppercase letters, digits, and special characters.
+   This will generate a random password with a length of specified characters, including uppercase letters, lowercase letters, digits, and special characters.
 
 ### License
 
